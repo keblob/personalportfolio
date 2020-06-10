@@ -62,42 +62,44 @@
     padding-right: 24px;
 }
 
-/* Hero */
+.hero {
+    max-width: 1080px;
+    margin: 0 auto;
+    justify-content: center;
+}
 
-@media (min-width: 697px) {
-    .hero_content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 24px;
-        padding-right: 24px;
+#intro_format {
+    padding-left: 150px;
+}
+
+.intro {
+    font-family: "Airbnb Font Bold", Helvetica, Sans-serif;
+    font-size: 60px;
+    display: flex;
+}
+
+.job_title {
+    font-family: "Airbnb Font Bold", Helvetica, Sans-serif;
+    font-size: 25px;
+    display: flex;
+    margin-top: 10px;
+}
+
+@media (max-width: 1200px) {
+    #intro_format {
+        padding: 0;
     }
 }
-
-.hero_article_title {
-    text-decoration: none;
-    color: black;
-    font-family: "Airbnb Font Bold", sans-serif, helvetica;
-    font-weight: 800;
-    font-size: 28px;
+.drawing {
+    display: flex;
 }
 
-a.hero_article_title:hover {
-    text-decoration: underline;
-    color: black;
+.portfolio_title {
+    display: flex;
+    justify-content: center;
+    font-family: "Airbnb Font Book", Helvetica, Sans-serif;
 }
 
-.hero_article_desc {
-    color: black;
-    font-family: "Airbnb Font Book", sans-serif, helvetica;
-    font-size: 18px;
-    margin-top: 15px;
-    line-height: 1.8;
-}
-
-.hero_article_date {
-    color: black;
-    font-family: "Airbnb Font Bold", sans-serif, helvetica;
-    font-size: 12px;
-    margin-top: 15px;
+.portfolio_content {
+    text-align: center;
 }
