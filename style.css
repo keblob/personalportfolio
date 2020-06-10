@@ -103,3 +103,12 @@
 .portfolio_content {
     text-align: center;
 }
+
+.about_me {
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Airbnb Font Book", Helvetica, sans-serif;
+}
